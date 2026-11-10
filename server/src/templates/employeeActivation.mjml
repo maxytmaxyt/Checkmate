@@ -22,7 +22,7 @@
 				<mj-text
 					align="left"
 					font-size="10px"
-					>Message from Checkmate Service</mj-text
+					>Message from Vexora-Cloud Status Service</mj-text
 				>
 			</mj-column>
 		</mj-section>
@@ -30,7 +30,7 @@
 			<mj-column width="100%">
 				<mj-text>
 					<p>Hello {{ name }}!</p>
-					<p>One of the admins created an account for you on the Checkmate server.</p>
+					<p>One of the admins created an account for you on the Vexora-Cloud Status server.</p>
 					<p>You can go ahead and create your account using this link.</p>
 					<p>
 						<a href="{{link}}">{{ link }}</a>
@@ -44,7 +44,7 @@
 					border-color="#E0E0E0"
 				></mj-divider>
 				<mj-text font-size="12px">
-					<p>This email was sent by Checkmate.</p>
+					<p>This email was sent by Vexora-Cloud Status.</p>
 				</mj-text>
 			</mj-column>
 		</mj-section>

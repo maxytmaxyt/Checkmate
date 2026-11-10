@@ -10,7 +10,7 @@ export const useTagsForm = ({ data }: UseTagsFormOptions) => {
 	return useMemo(() => {
 		const defaults: TagFormData = {
 			name: data?.name ?? "",
-			color: data?.color ?? "#13715B",
+			color: data?.color ?? "#7c3aed",
 		};
 
 		return { schema: tagSchema, defaults };

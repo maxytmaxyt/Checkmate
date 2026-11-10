@@ -326,7 +326,7 @@ export const BaseAuthPage = ({
 				justifyContent="space-between"
 				display={{ xs: "none", md: "flex" }}
 				sx={{
-					background: "linear-gradient(135deg, #0c4d3d 0%, #155a48 60%, #0f5d4a 100%)",
+					background: "linear-gradient(135deg, #5b21b6 0%, #6d28d9 60%, #7c3aed 100%)",
 					color: "#fff",
 					p: theme.spacing(28),
 					position: "relative",

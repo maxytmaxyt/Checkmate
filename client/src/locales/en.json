@@ -13,7 +13,7 @@
 				"content": "Warning: You haven't added a Google PageSpeed API key yet. Visit <settingsLink>Settings</settingsLink> to add one. Without it, the PageSpeed monitor won't function."
 			}
 		},
-		"appName": "Checkmate",
+		"appName": "Vexora-Cloud Status",
 		"statusCode": {
 			"down": "Down",
 			"networkError": {
@@ -178,7 +178,7 @@
 			},
 			"update": {
 				"available": "{{version}} available",
-				"tooltip": "A newer version of Checkmate is available. View the release notes."
+				"tooltip": "A newer version of Vexora-Cloud Status is available. View the release notes."
 			}
 		},
 		"imageUpload": {
@@ -216,8 +216,8 @@
 			"reconnected": "Connection restored"
 		},
 		"egressBanner": {
-			"degraded": "Checkmate cannot reach its reliability targets. Outbound connectivity appears to be down since {{time}}; monitor failures are not being reported as incidents until it recovers.",
-			"degradedNoTime": "Checkmate cannot reach its reliability targets. Outbound connectivity appears to be down; monitor failures are not being reported as incidents until it recovers.",
+			"degraded": "Vexora-Cloud Status cannot reach its reliability targets. Outbound connectivity appears to be down since {{time}}; monitor failures are not being reported as incidents until it recovers.",
+			"degradedNoTime": "Vexora-Cloud Status cannot reach its reliability targets. Outbound connectivity appears to be down; monitor failures are not being reported as incidents until it recovers.",
 			"degradedWorkers": "{{degraded}} of {{total}} workers have lost outbound connectivity since {{time}}. Their monitor failures are not being reported as incidents until it recovers.",
 			"degradedWorkersNoTime": "{{degraded}} of {{total}} workers have lost outbound connectivity. Their monitor failures are not being reported as incidents until it recovers."
 		},
@@ -256,7 +256,7 @@
 				"team": "Team"
 			},
 			"starPrompt": {
-				"title": "Star Checkmate",
+				"title": "Star Vexora-Cloud Status",
 				"description": "See the latest releases and help grow the community on GitHub"
 			},
 			"authFooter": {
@@ -275,7 +275,7 @@
 			}
 		},
 		"starPrompt": {
-			"title": "Star Checkmate",
+			"title": "Star Vexora-Cloud Status",
 			"description": "See the latest releases and help grow the community on GitHub"
 		}
 	},
@@ -299,7 +299,7 @@
 				},
 				"server": {
 					"title": "Proxy server",
-					"description": "Where the proxy server is reachable. Set the protocol Checkmate uses to connect to it, its hostname or IP address, and the port it listens on.",
+					"description": "Where the proxy server is reachable. Set the protocol Vexora-Cloud Status uses to connect to it, its hostname or IP address, and the port it listens on.",
 					"option": {
 						"protocol": {
 							"label": "Protocol"
@@ -474,7 +474,7 @@
 				}
 			},
 			"login": {
-				"title": "Welcome back to Checkmate!",
+				"title": "Welcome back to Vexora-Cloud Status!",
 				"subtitle": "Log in to continue",
 				"submit": "Login",
 				"links": {
@@ -489,7 +489,7 @@
 				}
 			},
 			"register": {
-				"title": "Welcome back to Checkmate!",
+				"title": "Welcome back to Vexora-Cloud Status!",
 				"subtitle": "Sign up to get started",
 				"setupNotice": "This page is only available during initial setup. Once a super admin is registered, additional users can be invited from team settings.",
 				"submit": "Register"
@@ -536,7 +536,7 @@
 			},
 			"header": {
 				"title": "Checks",
-				"description": "Every probe Checkmate runs against your monitors lands here, with status code and response time."
+				"description": "Every probe Vexora-Cloud Status runs against your monitors lands here, with status code and response time."
 			}
 		},
 		"common": {
@@ -1181,7 +1181,7 @@
 		"logs": {
 			"fallback": {
 				"title": "No logs yet",
-				"description": "Server activity, warnings, and errors will appear here as Checkmate runs."
+				"description": "Server activity, warnings, and errors will appear here as Vexora-Cloud Status runs."
 			},
 			"queueFallback": {
 				"title": "No jobs in the queue",
@@ -1463,7 +1463,7 @@
 					"optionServerUrl": "Server URL",
 					"placeholderServerUrl": "https://ntfy.sh",
 					"optionTopic": "Topic",
-					"placeholderTopic": "checkmate-alerts"
+					"placeholderTopic": "Vexora-Cloud Status-alerts"
 				}
 			},
 			"table": {
@@ -1519,7 +1519,7 @@
 				"email": "Email",
 				"integrations": "Integrations",
 				"data": "Data",
-				"connect": "Checkmate Connect"
+				"connect": "Vexora-Cloud Status Connect"
 			},
 			"form": {
 				"timezone": {
@@ -1657,7 +1657,7 @@
 						},
 						"displayName": {
 							"label": "Sender name (optional) - Friendly name shown in the From field",
-							"placeholder": "Checkmate notifications"
+							"placeholder": "Vexora-Cloud Status notifications"
 						},
 						"user": {
 							"label": "Email user - Username for authentication, overrides email address if specified",
@@ -1736,19 +1736,19 @@
 					"superadminOnly": "Only a superadmin can enroll this server or remove its enrollment. Sign out and back in if your role changed recently.",
 					"status": {
 						"title": "Status",
-						"description": "Whether this installation is enrolled with Checkmate Connect.",
+						"description": "Whether this installation is enrolled with Vexora-Cloud Status Connect.",
 						"enrolled": "Enrolled",
 						"notEnrolled": "Not enrolled",
 						"agentId": "Agent ID"
 					},
 					"enroll": {
 						"title": "Enroll installation",
-						"description": "Paste the credential block from your Checkmate Connect dashboard. The credential is stored encrypted in this installation's database and only leaves it to authenticate with Checkmate Connect.",
+						"description": "Paste the credential block from your Vexora-Cloud Status Connect dashboard. The credential is stored encrypted in this installation's database and only leaves it to authenticate with Vexora-Cloud Status Connect.",
 						"button": "Enroll"
 					},
 					"unenroll": {
 						"title": "Remove enrollment",
-						"description": "Disconnects this installation from Checkmate Connect and deletes the local credential. Local monitoring is not affected.",
+						"description": "Disconnects this installation from Vexora-Cloud Status Connect and deletes the local credential. Local monitoring is not affected.",
 						"button": "Remove enrollment",
 						"confirm": "Click again to confirm"
 					}
@@ -1902,7 +1902,7 @@
 						"customDomain": {
 							"label": "Custom domain",
 							"placeholder": "status.example.com",
-							"helper": "Optional. Point a DNS record to this Checkmate instance to serve the status page at your own domain."
+							"helper": "Optional. Point a DNS record to this Vexora-Cloud Status instance to serve the status page at your own domain."
 						}
 					}
 				},
@@ -1946,7 +1946,7 @@
 					"options": {
 						"refined": {
 							"name": "Refined",
-							"description": "Clean, professional, close to the classic Checkmate look."
+							"description": "Clean, professional, close to the classic Vexora-Cloud Status look."
 						},
 						"modern": {
 							"name": "Modern",
@@ -2069,7 +2069,7 @@
 				"currentlyDown": "Currently down",
 				"uptime": "Monitor uptime",
 				"monitorsByType": "Monitors by type",
-				"diagnostic": "Checkmate diagnostics",
+				"diagnostic": "Vexora-Cloud Status diagnostics",
 				"queue": "Queue"
 			},
 			"uptimeCard": {

@@ -13,7 +13,7 @@
 				"content": "Varoitus: Et ole vielä lisännyt Google PageSpeed API -avainta. Siirry <settingsLink>Asetuksiin</settingsLink> lisätäksesi sellainen. Ilman sitä PageSpeed-monitorointi ei toimi."
 			}
 		},
-		"appName": "Checkmate",
+		"appName": "Vexora-Cloud Status",
 		"breadcrumbs": {
 			"details": "Tiedot",
 			"home": "Etusivu"
@@ -176,8 +176,8 @@
 			"reconnected": "Yhteys palautettu"
 		},
 		"egressBanner": {
-			"degraded": "Checkmate ei tavoita luotettavuuskohteitaan. Lähtevä yhteys näyttää olleen poikki {{time}} alkaen; monitorien virheitä ei raportoida häiriöinä ennen kuin yhteys palautuu.",
-			"degradedNoTime": "Checkmate ei tavoita luotettavuuskohteitaan. Lähtevä yhteys näyttää olevan poikki; monitorien virheitä ei raportoida häiriöinä ennen kuin yhteys palautuu.",
+			"degraded": "Vexora-Cloud Status ei tavoita luotettavuuskohteitaan. Lähtevä yhteys näyttää olleen poikki {{time}} alkaen; monitorien virheitä ei raportoida häiriöinä ennen kuin yhteys palautuu.",
+			"degradedNoTime": "Vexora-Cloud Status ei tavoita luotettavuuskohteitaan. Lähtevä yhteys näyttää olevan poikki; monitorien virheitä ei raportoida häiriöinä ennen kuin yhteys palautuu.",
 			"degradedWorkers": "{{degraded}}/{{total}} workeria on menettänyt lähtevän yhteyden {{time}} alkaen. Niiden monitorivirheitä ei raportoida häiriöinä ennen kuin yhteys palautuu.",
 			"degradedWorkersNoTime": "{{degraded}}/{{total}} workeria on menettänyt lähtevän yhteyden. Niiden monitorivirheitä ei raportoida häiriöinä ennen kuin yhteys palautuu."
 		},
@@ -214,7 +214,7 @@
 				"team": "Tiimi"
 			},
 			"starPrompt": {
-				"title": "Lisää Checkmate suosikkeihin",
+				"title": "Lisää Vexora-Cloud Status suosikkeihin",
 				"description": "Katso uusimmat julkaisut ja auta kasvattamaan yhteisöä GitHubissa"
 			},
 			"authFooter": {
@@ -233,7 +233,7 @@
 			}
 		},
 		"starPrompt": {
-			"title": "Lisää Checkmate suosikkeihin",
+			"title": "Lisää Vexora-Cloud Status suosikkeihin",
 			"description": "Katso uusimmat julkaisut ja auta kasvattamaan yhteisöä GitHubissa"
 		},
 		"pageHeader": {
@@ -245,7 +245,7 @@
 			},
 			"update": {
 				"available": "{{version}} saatavilla",
-				"tooltip": "Checkmatesta on saatavilla uudempi versio. Näytä julkaisutiedot."
+				"tooltip": "Vexora-Cloud Statussta on saatavilla uudempi versio. Näytä julkaisutiedot."
 			}
 		}
 	},
@@ -387,7 +387,7 @@
 				}
 			},
 			"login": {
-				"title": "Tervetuloa takaisin Checkmateen!",
+				"title": "Tervetuloa takaisin Vexora-Cloud Statusen!",
 				"subtitle": "Kirjaudu sisään jatkaaksesi",
 				"submit": "Kirjaudu sisään",
 				"links": {
@@ -402,7 +402,7 @@
 				}
 			},
 			"register": {
-				"title": "Tervetuloa takaisin Checkmateen!",
+				"title": "Tervetuloa takaisin Vexora-Cloud Statusen!",
 				"subtitle": "Rekisteröidy aloittaaksesi",
 				"submit": "Rekisteröidy",
 				"setupNotice": "Tämä sivu on käytettävissä vain alkuasennuksen aikana. Kun super-admin on rekisteröity, lisäkäyttäjiä voi kutsua tiimiasetuksista."
@@ -449,7 +449,7 @@
 			},
 			"header": {
 				"title": "Tarkistukset",
-				"description": "Jokainen tarkistus, jonka Checkmate suorittaa monitoreitasi vastaan, näkyy täällä tilakoodin ja vasteajan kanssa."
+				"description": "Jokainen tarkistus, jonka Vexora-Cloud Status suorittaa monitoreitasi vastaan, näkyy täällä tilakoodin ja vasteajan kanssa."
 			}
 		},
 		"common": {
@@ -956,7 +956,7 @@
 		"logs": {
 			"fallback": {
 				"title": "Ei vielä lokeja",
-				"description": "Palvelimen toiminta, varoitukset ja virheet näkyvät täällä Checkmaten toimiessa."
+				"description": "Palvelimen toiminta, varoitukset ja virheet näkyvät täällä Vexora-Cloud Statusn toimiessa."
 			},
 			"tabs": {
 				"diagnostics": "Diagnostiikka",
@@ -1379,7 +1379,7 @@
 						},
 						"displayName": {
 							"label": "Lähettäjän nimi (valinnainen) - Lähettäjäkentässä näkyvä ystävällinen nimi",
-							"placeholder": "Checkmate-ilmoitukset"
+							"placeholder": "Vexora-Cloud Status-ilmoitukset"
 						}
 					}
 				},
@@ -1616,7 +1616,7 @@
 							"name": "Moderni"
 						},
 						"refined": {
-							"description": "Siisti, ammattimainen, lähellä klassista Checkmate-ilmettä.",
+							"description": "Siisti, ammattimainen, lähellä klassista Vexora-Cloud Status-ilmettä.",
 							"name": "Hienostunut"
 						}
 					},
@@ -1767,7 +1767,7 @@
 				"currentlyDown": "Tällä hetkellä alhaalla",
 				"uptime": "Monitorien käytettävyys",
 				"monitorsByType": "Monitorit tyypin mukaan",
-				"diagnostic": "Checkmate-diagnostiikka",
+				"diagnostic": "Vexora-Cloud Status-diagnostiikka",
 				"queue": "Jono"
 			},
 			"uptimeCard": {

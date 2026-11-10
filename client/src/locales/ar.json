@@ -13,7 +13,7 @@
 				"content": "تحذير: لم تقم بإضافة مفتاح Google PageSpeed API بعد. قم بزيارة <settingsLink>الإعدادات</settingsLink> لإضافته. بدونه، لن تعمل مراقبة PageSpeed."
 			}
 		},
-		"appName": "Checkmate",
+		"appName": "Vexora-Cloud Status",
 		"breadcrumbs": {
 			"details": "التفاصيل",
 			"home": "الرئيسية"
@@ -176,8 +176,8 @@
 			"reconnected": "تمت استعادة الاتصال"
 		},
 		"egressBanner": {
-			"degraded": "لا يستطيع Checkmate الوصول إلى أهداف الموثوقية الخاصة به. يبدو أن الاتصال الصادر منقطع منذ {{time}}؛ لا يتم الإبلاغ عن إخفاقات المراقبات كحوادث حتى يعود الاتصال.",
-			"degradedNoTime": "لا يستطيع Checkmate الوصول إلى أهداف الموثوقية الخاصة به. يبدو أن الاتصال الصادر منقطع؛ لا يتم الإبلاغ عن إخفاقات المراقبات كحوادث حتى يعود الاتصال.",
+			"degraded": "لا يستطيع Vexora-Cloud Status الوصول إلى أهداف الموثوقية الخاصة به. يبدو أن الاتصال الصادر منقطع منذ {{time}}؛ لا يتم الإبلاغ عن إخفاقات المراقبات كحوادث حتى يعود الاتصال.",
+			"degradedNoTime": "لا يستطيع Vexora-Cloud Status الوصول إلى أهداف الموثوقية الخاصة به. يبدو أن الاتصال الصادر منقطع؛ لا يتم الإبلاغ عن إخفاقات المراقبات كحوادث حتى يعود الاتصال.",
 			"degradedWorkers": "فقد {{degraded}} من أصل {{total}} عاملين الاتصال الصادر منذ {{time}}. لا يتم الإبلاغ عن إخفاقات المراقبات لديهم كحوادث حتى يعود الاتصال.",
 			"degradedWorkersNoTime": "فقد {{degraded}} من أصل {{total}} عاملين الاتصال الصادر. لا يتم الإبلاغ عن إخفاقات المراقبات لديهم كحوادث حتى يعود الاتصال."
 		},
@@ -214,7 +214,7 @@
 				"team": "الفريق"
 			},
 			"starPrompt": {
-				"title": "أضف نجمة لـ Checkmate",
+				"title": "أضف نجمة لـ Vexora-Cloud Status",
 				"description": "اطلع على أحدث الإصدارات وساعد في تنمية المجتمع على GitHub"
 			},
 			"authFooter": {
@@ -233,7 +233,7 @@
 			}
 		},
 		"starPrompt": {
-			"title": "أضف نجمة لـ Checkmate",
+			"title": "أضف نجمة لـ Vexora-Cloud Status",
 			"description": "اطلع على أحدث الإصدارات وساعد في تنمية المجتمع على GitHub"
 		},
 		"pageHeader": {
@@ -245,7 +245,7 @@
 			},
 			"update": {
 				"available": "{{version}} متاح",
-				"tooltip": "يتوفر إصدار أحدث من Checkmate. اعرض ملاحظات الإصدار."
+				"tooltip": "يتوفر إصدار أحدث من Vexora-Cloud Status. اعرض ملاحظات الإصدار."
 			}
 		}
 	},
@@ -387,7 +387,7 @@
 				}
 			},
 			"login": {
-				"title": "مرحباً بعودتك إلى Checkmate!",
+				"title": "مرحباً بعودتك إلى Vexora-Cloud Status!",
 				"subtitle": "سجّل الدخول للمتابعة",
 				"submit": "تسجيل الدخول",
 				"links": {
@@ -402,7 +402,7 @@
 				}
 			},
 			"register": {
-				"title": "مرحباً بعودتك إلى Checkmate!",
+				"title": "مرحباً بعودتك إلى Vexora-Cloud Status!",
 				"subtitle": "سجّل للبدء",
 				"submit": "تسجيل",
 				"setupNotice": "هذه الصفحة متاحة فقط أثناء الإعداد الأولي. بمجرد تسجيل المسؤول الأعلى، يمكن دعوة مستخدمين إضافيين من إعدادات الفريق."
@@ -449,7 +449,7 @@
 			},
 			"header": {
 				"title": "الفحوصات",
-				"description": "كل فحص يجريه Checkmate على مراقبيك يظهر هنا برمز الحالة ووقت الاستجابة."
+				"description": "كل فحص يجريه Vexora-Cloud Status على مراقبيك يظهر هنا برمز الحالة ووقت الاستجابة."
 			}
 		},
 		"common": {
@@ -956,7 +956,7 @@
 		"logs": {
 			"fallback": {
 				"title": "لا توجد سجلات بعد",
-				"description": "ستظهر هنا نشاط الخادم والتحذيرات والأخطاء أثناء تشغيل Checkmate."
+				"description": "ستظهر هنا نشاط الخادم والتحذيرات والأخطاء أثناء تشغيل Vexora-Cloud Status."
 			},
 			"tabs": {
 				"diagnostics": "التشخيص",
@@ -1379,7 +1379,7 @@
 						},
 						"displayName": {
 							"label": "اسم المرسل (اختياري) - الاسم الودي المعروض في حقل المرسل",
-							"placeholder": "إشعارات Checkmate"
+							"placeholder": "إشعارات Vexora-Cloud Status"
 						}
 					}
 				},
@@ -1616,7 +1616,7 @@
 							"name": "حديث"
 						},
 						"refined": {
-							"description": "نظيف واحترافي وقريب من مظهر Checkmate الكلاسيكي.",
+							"description": "نظيف واحترافي وقريب من مظهر Vexora-Cloud Status الكلاسيكي.",
 							"name": "مكرر"
 						}
 					},
@@ -1767,7 +1767,7 @@
 				"currentlyDown": "متوقفة حاليًا",
 				"uptime": "مدة تشغيل المراقبات",
 				"monitorsByType": "المراقبات حسب النوع",
-				"diagnostic": "تشخيصات Checkmate",
+				"diagnostic": "تشخيصات Vexora-Cloud Status",
 				"queue": "قائمة الانتظار"
 			},
 			"uptimeCard": {

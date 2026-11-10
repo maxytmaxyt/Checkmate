@@ -13,7 +13,7 @@
 				"content": "Avís: Encara no heu afegit una clau API de Google PageSpeed. Aneu a <settingsLink>Configuració</settingsLink> per afegir-ne una. Sense ella, el monitor PageSpeed no funcionarà."
 			}
 		},
-		"appName": "Checkmate",
+		"appName": "Vexora-Cloud Status",
 		"breadcrumbs": {
 			"details": "Detalls",
 			"home": "Inici"
@@ -150,7 +150,7 @@
 			},
 			"update": {
 				"available": "{{version}} disponible",
-				"tooltip": "Hi ha disponible una versió més recent de Checkmate. Consulta les notes de la versió."
+				"tooltip": "Hi ha disponible una versió més recent de Vexora-Cloud Status. Consulta les notes de la versió."
 			}
 		},
 		"imageUpload": {
@@ -188,8 +188,8 @@
 			"reconnected": "Connexió restablerta"
 		},
 		"egressBanner": {
-			"degraded": "Checkmate no pot arribar als seus destins de fiabilitat. La connectivitat sortint sembla caiguda des de {{time}}; les fallades dels monitors no s'estan notificant com a incidents fins que es recuperi.",
-			"degradedNoTime": "Checkmate no pot arribar als seus destins de fiabilitat. La connectivitat sortint sembla caiguda; les fallades dels monitors no s'estan notificant com a incidents fins que es recuperi.",
+			"degraded": "Vexora-Cloud Status no pot arribar als seus destins de fiabilitat. La connectivitat sortint sembla caiguda des de {{time}}; les fallades dels monitors no s'estan notificant com a incidents fins que es recuperi.",
+			"degradedNoTime": "Vexora-Cloud Status no pot arribar als seus destins de fiabilitat. La connectivitat sortint sembla caiguda; les fallades dels monitors no s'estan notificant com a incidents fins que es recuperi.",
 			"degradedWorkers": "{{degraded}} de {{total}} workers han perdut la connectivitat sortint des de {{time}}. Les seves fallades de monitors no s'estan notificant com a incidents fins que es recuperi.",
 			"degradedWorkersNoTime": "{{degraded}} de {{total}} workers han perdut la connectivitat sortint. Les seves fallades de monitors no s'estan notificant com a incidents fins que es recuperi."
 		},
@@ -226,7 +226,7 @@
 				"team": "Equip"
 			},
 			"starPrompt": {
-				"title": "Dona una estrella a Checkmate",
+				"title": "Dona una estrella a Vexora-Cloud Status",
 				"description": "Veu les darreres versions i ajuda a fer créixer la comunitat a GitHub"
 			},
 			"authFooter": {
@@ -245,7 +245,7 @@
 			}
 		},
 		"starPrompt": {
-			"title": "Dona una estrella a Checkmate",
+			"title": "Dona una estrella a Vexora-Cloud Status",
 			"description": "Veu les darreres versions i ajuda a fer créixer la comunitat a GitHub"
 		}
 	},
@@ -387,7 +387,7 @@
 				}
 			},
 			"login": {
-				"title": "Benvingut de nou a Checkmate!",
+				"title": "Benvingut de nou a Vexora-Cloud Status!",
 				"subtitle": "Inicia sessió per continuar",
 				"submit": "Iniciar sessió",
 				"links": {
@@ -402,7 +402,7 @@
 				}
 			},
 			"register": {
-				"title": "Benvingut a Checkmate!",
+				"title": "Benvingut a Vexora-Cloud Status!",
 				"subtitle": "Registra't per començar",
 				"setupNotice": "Aquesta pàgina només és accessible durant la configuració inicial. Un cop registrat el superadministrador, els usuaris addicionals es poden convidar des de la configuració de l'equip.",
 				"submit": "Registrar"
@@ -449,7 +449,7 @@
 			},
 			"header": {
 				"title": "Comprovacions",
-				"description": "Cada sonda que Checkmate executa contra els teus monitors apareix aquí, amb codi d'estat i temps de resposta."
+				"description": "Cada sonda que Vexora-Cloud Status executa contra els teus monitors apareix aquí, amb codi d'estat i temps de resposta."
 			}
 		},
 		"common": {
@@ -956,7 +956,7 @@
 		"logs": {
 			"fallback": {
 				"title": "Encara no hi ha registres",
-				"description": "L'activitat del servidor, els avisos i els errors apareixeran aquí mentre s'executa Checkmate."
+				"description": "L'activitat del servidor, els avisos i els errors apareixeran aquí mentre s'executa Vexora-Cloud Status."
 			},
 			"queueFallback": {
 				"title": "Cap feina a la cua",
@@ -1347,7 +1347,7 @@
 						},
 						"displayName": {
 							"label": "Nom del remitent (opcional) — Nom amigable que apareix al camp De",
-							"placeholder": "Notificacions de Checkmate"
+							"placeholder": "Notificacions de Vexora-Cloud Status"
 						},
 						"user": {
 							"label": "Usuari de correu — Nom d'usuari per a l'autenticació, substitueix l'adreça de correu si s'especifica",
@@ -1595,7 +1595,7 @@
 					"options": {
 						"refined": {
 							"name": "Refinat",
-							"description": "Net, professional, proper a l'aspecte clàssic de Checkmate."
+							"description": "Net, professional, proper a l'aspecte clàssic de Vexora-Cloud Status."
 						},
 						"modern": {
 							"name": "Modern",
@@ -1767,7 +1767,7 @@
 				"currentlyDown": "Actualment caiguts",
 				"uptime": "Disponibilitat dels monitors",
 				"monitorsByType": "Monitors per tipus",
-				"diagnostic": "Diagnòstic de Checkmate",
+				"diagnostic": "Diagnòstic de Vexora-Cloud Status",
 				"queue": "Cua"
 			},
 			"uptimeCard": {

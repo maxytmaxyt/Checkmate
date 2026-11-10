@@ -13,7 +13,7 @@
 				"content": "Upozornění: Zatím jste nepřidali klíč Google PageSpeed API. Přejděte do <settingsLink>Nastavení</settingsLink> a přidejte ho. Bez něj nebude monitor PageSpeed fungovat."
 			}
 		},
-		"appName": "Checkmate",
+		"appName": "Vexora-Cloud Status",
 		"breadcrumbs": {
 			"details": "Podrobnosti",
 			"home": "Domů"
@@ -176,8 +176,8 @@
 			"reconnected": "Podařilo se úspěšně obnovit spojení se serverem"
 		},
 		"egressBanner": {
-			"degraded": "Checkmate nemůže dosáhnout svých cílů spolehlivosti. Odchozí připojení je zřejmě nedostupné od {{time}}; selhání monitorů nejsou hlášena jako incidenty, dokud se neobnoví.",
-			"degradedNoTime": "Checkmate nemůže dosáhnout svých cílů spolehlivosti. Odchozí připojení je zřejmě nedostupné; selhání monitorů nejsou hlášena jako incidenty, dokud se neobnoví.",
+			"degraded": "Vexora-Cloud Status nemůže dosáhnout svých cílů spolehlivosti. Odchozí připojení je zřejmě nedostupné od {{time}}; selhání monitorů nejsou hlášena jako incidenty, dokud se neobnoví.",
+			"degradedNoTime": "Vexora-Cloud Status nemůže dosáhnout svých cílů spolehlivosti. Odchozí připojení je zřejmě nedostupné; selhání monitorů nejsou hlášena jako incidenty, dokud se neobnoví.",
 			"degradedWorkers": "{{degraded}} z {{total}} workerů ztratilo odchozí připojení od {{time}}. Jejich selhání monitorů nejsou hlášena jako incidenty, dokud se neobnoví.",
 			"degradedWorkersNoTime": "{{degraded}} z {{total}} workerů ztratilo odchozí připojení. Jejich selhání monitorů nejsou hlášena jako incidenty, dokud se neobnoví."
 		},
@@ -214,7 +214,7 @@
 				"team": "Tým"
 			},
 			"starPrompt": {
-				"title": "Ohodnoťte Checkmate",
+				"title": "Ohodnoťte Vexora-Cloud Status",
 				"description": "Sledujte nejnovější vydání a pomozte rozšířit komunitu na GitHubu"
 			},
 			"authFooter": {
@@ -233,7 +233,7 @@
 			}
 		},
 		"starPrompt": {
-			"title": "Ohodnoťte Checkmate",
+			"title": "Ohodnoťte Vexora-Cloud Status",
 			"description": "Sledujte nejnovější vydání a pomozte rozšířit komunitu na GitHubu"
 		},
 		"pageHeader": {
@@ -245,7 +245,7 @@
 			},
 			"update": {
 				"available": "{{version}} k dispozici",
-				"tooltip": "Je k dispozici novější verze Checkmate. Zobrazit poznámky k vydání."
+				"tooltip": "Je k dispozici novější verze Vexora-Cloud Status. Zobrazit poznámky k vydání."
 			}
 		}
 	},
@@ -387,7 +387,7 @@
 				}
 			},
 			"login": {
-				"title": "Vítejte zpět v Checkmate!",
+				"title": "Vítejte zpět v Vexora-Cloud Status!",
 				"subtitle": "Přihlaste se pro pokračování",
 				"submit": "Přihlásit se",
 				"links": {
@@ -402,7 +402,7 @@
 				}
 			},
 			"register": {
-				"title": "Vítejte v Checkmate!",
+				"title": "Vítejte v Vexora-Cloud Status!",
 				"subtitle": "Zaregistrujte se a začněte",
 				"submit": "Registrovat",
 				"setupNotice": "Tato stránka je k dispozici pouze během počátečního nastavení. Po zaregistrování super administrátora lze pozvat další uživatele z nastavení týmu."
@@ -449,7 +449,7 @@
 			},
 			"header": {
 				"title": "Kontroly",
-				"description": "Každá sonda, kterou Checkmate spustí proti vašim monitorům, se zde objeví se stavovým kódem a dobou odezvy."
+				"description": "Každá sonda, kterou Vexora-Cloud Status spustí proti vašim monitorům, se zde objeví se stavovým kódem a dobou odezvy."
 			}
 		},
 		"common": {
@@ -956,7 +956,7 @@
 		"logs": {
 			"fallback": {
 				"title": "Zatím žádné protokoly",
-				"description": "Aktivita serveru, varování a chyby se zobrazí zde, jak Checkmate běží."
+				"description": "Aktivita serveru, varování a chyby se zobrazí zde, jak Vexora-Cloud Status běží."
 			},
 			"tabs": {
 				"diagnostics": "Diagnostika",
@@ -1379,7 +1379,7 @@
 						},
 						"displayName": {
 							"label": "Jméno odesílatele (nepovinné) - Přátelské jméno zobrazené v poli Od",
-							"placeholder": "Oznámení Checkmate"
+							"placeholder": "Oznámení Vexora-Cloud Status"
 						}
 					}
 				},
@@ -1616,7 +1616,7 @@
 							"name": "Moderní"
 						},
 						"refined": {
-							"description": "Čistý, profesionální, blízký klasickému vzhledu Checkmate.",
+							"description": "Čistý, profesionální, blízký klasickému vzhledu Vexora-Cloud Status.",
 							"name": "Vytříbený"
 						}
 					},
@@ -1767,7 +1767,7 @@
 				"currentlyDown": "Aktuálně nedostupné",
 				"uptime": "Dostupnost monitorů",
 				"monitorsByType": "Monitory podle typu",
-				"diagnostic": "Diagnostika Checkmate",
+				"diagnostic": "Diagnostika Vexora-Cloud Status",
 				"queue": "Fronta"
 			},
 			"uptimeCard": {

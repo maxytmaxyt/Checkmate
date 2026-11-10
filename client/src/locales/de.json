@@ -13,7 +13,7 @@
 				"content": "Warnung: Sie haben noch keinen Google PageSpeed API-Schlüssel hinzugefügt. Besuchen Sie die <settingsLink>Einstellungen</settingsLink>, um einen hinzuzufügen. Ohne diesen funktioniert der PageSpeed-Monitor nicht."
 			}
 		},
-		"appName": "Checkmate",
+		"appName": "Vexora-Cloud Status",
 		"breadcrumbs": {
 			"details": "Details",
 			"home": "Startseite"
@@ -176,8 +176,8 @@
 			"reconnected": "Verbindung zum Server wiederhergestellt."
 		},
 		"egressBanner": {
-			"degraded": "Checkmate kann seine Zuverlässigkeitsziele nicht erreichen. Die ausgehende Verbindung scheint seit {{time}} unterbrochen zu sein; Monitorfehler werden bis zur Wiederherstellung nicht als Vorfälle gemeldet.",
-			"degradedNoTime": "Checkmate kann seine Zuverlässigkeitsziele nicht erreichen. Die ausgehende Verbindung scheint unterbrochen zu sein; Monitorfehler werden bis zur Wiederherstellung nicht als Vorfälle gemeldet.",
+			"degraded": "Vexora-Cloud Status kann seine Zuverlässigkeitsziele nicht erreichen. Die ausgehende Verbindung scheint seit {{time}} unterbrochen zu sein; Monitorfehler werden bis zur Wiederherstellung nicht als Vorfälle gemeldet.",
+			"degradedNoTime": "Vexora-Cloud Status kann seine Zuverlässigkeitsziele nicht erreichen. Die ausgehende Verbindung scheint unterbrochen zu sein; Monitorfehler werden bis zur Wiederherstellung nicht als Vorfälle gemeldet.",
 			"degradedWorkers": "{{degraded}} von {{total}} Workern haben seit {{time}} keine ausgehende Verbindung mehr. Ihre Monitorfehler werden bis zur Wiederherstellung nicht als Vorfälle gemeldet.",
 			"degradedWorkersNoTime": "{{degraded}} von {{total}} Workern haben keine ausgehende Verbindung mehr. Ihre Monitorfehler werden bis zur Wiederherstellung nicht als Vorfälle gemeldet."
 		},
@@ -214,7 +214,7 @@
 				"team": "Team"
 			},
 			"starPrompt": {
-				"title": "Checkmate bewerten",
+				"title": "Vexora-Cloud Status bewerten",
 				"description": "Entdecken Sie die neuesten Versionen und helfen Sie der Community auf GitHub"
 			},
 			"authFooter": {
@@ -233,7 +233,7 @@
 			}
 		},
 		"starPrompt": {
-			"title": "Checkmate bewerten",
+			"title": "Vexora-Cloud Status bewerten",
 			"description": "Entdecken Sie die neuesten Versionen und helfen Sie der Community auf GitHub"
 		},
 		"pageHeader": {
@@ -245,7 +245,7 @@
 			},
 			"update": {
 				"available": "{{version}} verfügbar",
-				"tooltip": "Eine neuere Version von Checkmate ist verfügbar. Versionshinweise anzeigen."
+				"tooltip": "Eine neuere Version von Vexora-Cloud Status ist verfügbar. Versionshinweise anzeigen."
 			}
 		}
 	},
@@ -387,7 +387,7 @@
 				}
 			},
 			"login": {
-				"title": "Willkommen zurück bei Checkmate!",
+				"title": "Willkommen zurück bei Vexora-Cloud Status!",
 				"subtitle": "Melden Sie sich an, um fortzufahren",
 				"submit": "Anmelden",
 				"links": {
@@ -402,7 +402,7 @@
 				}
 			},
 			"register": {
-				"title": "Willkommen bei Checkmate!",
+				"title": "Willkommen bei Vexora-Cloud Status!",
 				"subtitle": "Registrieren Sie sich, um loszulegen",
 				"submit": "Registrieren",
 				"setupNotice": "Diese Seite ist nur während der Ersteinrichtung verfügbar. Sobald ein Super-Admin registriert ist, können weitere Benutzer in den Team-Einstellungen eingeladen werden."
@@ -449,7 +449,7 @@
 			},
 			"header": {
 				"title": "Prüfungen",
-				"description": "Jede Sondierung, die Checkmate gegen Ihre Monitore ausführt, erscheint hier mit Statuscode und Antwortzeit."
+				"description": "Jede Sondierung, die Vexora-Cloud Status gegen Ihre Monitore ausführt, erscheint hier mit Statuscode und Antwortzeit."
 			}
 		},
 		"common": {
@@ -957,7 +957,7 @@
 		"logs": {
 			"fallback": {
 				"title": "Noch keine Protokolle",
-				"description": "Serveraktivitäten, Warnungen und Fehler werden hier angezeigt, während Checkmate läuft."
+				"description": "Serveraktivitäten, Warnungen und Fehler werden hier angezeigt, während Vexora-Cloud Status läuft."
 			},
 			"tabs": {
 				"diagnostics": "Diagnose",
@@ -1380,7 +1380,7 @@
 						},
 						"displayName": {
 							"label": "Absendername (optional) - Anzeigename im Absenderfeld",
-							"placeholder": "Checkmate-Benachrichtigungen"
+							"placeholder": "Vexora-Cloud Status-Benachrichtigungen"
 						}
 					}
 				},
@@ -1617,7 +1617,7 @@
 							"name": "Modern"
 						},
 						"refined": {
-							"description": "Sauber, professionell, nah am klassischen Checkmate-Look.",
+							"description": "Sauber, professionell, nah am klassischen Vexora-Cloud Status-Look.",
 							"name": "Verfeinert"
 						}
 					},
@@ -1768,7 +1768,7 @@
 				"currentlyDown": "Derzeit ausgefallen",
 				"uptime": "Monitor-Verfügbarkeit",
 				"monitorsByType": "Monitore nach Typ",
-				"diagnostic": "Checkmate-Diagnose",
+				"diagnostic": "Vexora-Cloud Status-Diagnose",
 				"queue": "Warteschlange"
 			},
 			"uptimeCard": {

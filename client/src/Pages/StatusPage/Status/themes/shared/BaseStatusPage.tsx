@@ -338,13 +338,12 @@ export const BaseStatusPage = ({
 				component="footer"
 				sx={styles.footer}
 			>
-				{t("pages.statusPages.footer.poweredBy")}{" "}
 				<a
-					href="https://checkmate.so"
+					href="https://vexora-cloud.de"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					Checkmate
+					Bereitgestellt von Vexora-Cloud
 				</a>
 			</Box>
 			<IncidentModal

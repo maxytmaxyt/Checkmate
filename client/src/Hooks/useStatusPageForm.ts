@@ -34,7 +34,7 @@ export const useStatusPageForm = ({
 			customDomain: data?.customDomain ?? null,
 			timezone: resolveTimezone(data?.timezone),
 			type: data?.type || ["uptime"],
-			color: data?.color || "#13715B",
+			color: data?.color || "#7c3aed",
 			monitors: data?.monitors || [],
 			isPublished: data?.isPublished ?? false,
 			showCharts: data?.showCharts ?? true,

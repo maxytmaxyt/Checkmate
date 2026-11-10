@@ -13,7 +13,7 @@
 				"content": "警告：您尚未新增 Google PageSpeed API 金鑰。請前往<settingsLink>設定</settingsLink>新增。若未設定，PageSpeed 監控將無法運作。"
 			}
 		},
-		"appName": "Checkmate",
+		"appName": "Vexora-Cloud Status",
 		"breadcrumbs": {
 			"details": "詳細資料",
 			"home": "首頁"
@@ -176,8 +176,8 @@
 			"reconnected": "連線已恢復"
 		},
 		"egressBanner": {
-			"degraded": "Checkmate 無法連線至其可靠性目標。對外連線似乎自 {{time}} 起中斷；在恢復之前，監控器的失敗不會被回報為事件。",
-			"degradedNoTime": "Checkmate 無法連線至其可靠性目標。對外連線似乎已中斷；在恢復之前，監控器的失敗不會被回報為事件。",
+			"degraded": "Vexora-Cloud Status 無法連線至其可靠性目標。對外連線似乎自 {{time}} 起中斷；在恢復之前，監控器的失敗不會被回報為事件。",
+			"degradedNoTime": "Vexora-Cloud Status 無法連線至其可靠性目標。對外連線似乎已中斷；在恢復之前，監控器的失敗不會被回報為事件。",
 			"degradedWorkers": "{{total}} 個工作程序中有 {{degraded}} 個自 {{time}} 起失去對外連線。在恢復之前，它們的監控器失敗不會被回報為事件。",
 			"degradedWorkersNoTime": "{{total}} 個工作程序中有 {{degraded}} 個失去對外連線。在恢復之前，它們的監控器失敗不會被回報為事件。"
 		},
@@ -214,7 +214,7 @@
 				"team": "團隊"
 			},
 			"starPrompt": {
-				"title": "為 Checkmate 加星",
+				"title": "為 Vexora-Cloud Status 加星",
 				"description": "查看最新版本並在 GitHub 上幫助社群成長"
 			},
 			"authFooter": {
@@ -233,7 +233,7 @@
 			}
 		},
 		"starPrompt": {
-			"title": "為 Checkmate 加星",
+			"title": "為 Vexora-Cloud Status 加星",
 			"description": "查看最新版本並在 GitHub 上幫助社群成長"
 		},
 		"pageHeader": {
@@ -245,7 +245,7 @@
 			},
 			"update": {
 				"available": "{{version}} 可用",
-				"tooltip": "Checkmate 有新版本可用。查看版本說明。"
+				"tooltip": "Vexora-Cloud Status 有新版本可用。查看版本說明。"
 			}
 		}
 	},
@@ -387,7 +387,7 @@
 				}
 			},
 			"login": {
-				"title": "歡迎回到 Checkmate！",
+				"title": "歡迎回到 Vexora-Cloud Status！",
 				"subtitle": "請登入以繼續",
 				"submit": "登入",
 				"links": {
@@ -402,7 +402,7 @@
 				}
 			},
 			"register": {
-				"title": "歡迎回到 Checkmate！",
+				"title": "歡迎回到 Vexora-Cloud Status！",
 				"subtitle": "註冊以開始使用",
 				"submit": "註冊",
 				"setupNotice": "此頁面僅在初始設定期間可用。註冊超級管理員後,可以從團隊設定中邀請更多使用者。"
@@ -449,7 +449,7 @@
 			},
 			"header": {
 				"title": "檢查",
-				"description": "Checkmate 對您的監視器執行的每次探測都會在此顯示，包含狀態碼與回應時間。"
+				"description": "Vexora-Cloud Status 對您的監視器執行的每次探測都會在此顯示，包含狀態碼與回應時間。"
 			}
 		},
 		"common": {
@@ -956,7 +956,7 @@
 		"logs": {
 			"fallback": {
 				"title": "尚無日誌",
-				"description": "Checkmate 運行時的伺服器活動、警告與錯誤將顯示在此。"
+				"description": "Vexora-Cloud Status 運行時的伺服器活動、警告與錯誤將顯示在此。"
 			},
 			"tabs": {
 				"diagnostics": "診斷",
@@ -1379,7 +1379,7 @@
 						},
 						"displayName": {
 							"label": "寄件者名稱（選填）- 顯示在寄件者欄位的友善名稱",
-							"placeholder": "Checkmate通知"
+							"placeholder": "Vexora-Cloud Status通知"
 						}
 					}
 				},
@@ -1616,7 +1616,7 @@
 							"name": "現代"
 						},
 						"refined": {
-							"description": "乾淨、專業，接近經典Checkmate外觀。",
+							"description": "乾淨、專業，接近經典Vexora-Cloud Status外觀。",
 							"name": "精緻"
 						}
 					},
@@ -1767,7 +1767,7 @@
 				"currentlyDown": "目前中斷",
 				"uptime": "監控可用率",
 				"monitorsByType": "依類型分類的監控",
-				"diagnostic": "Checkmate 診斷",
+				"diagnostic": "Vexora-Cloud Status 診斷",
 				"queue": "佇列"
 			},
 			"uptimeCard": {

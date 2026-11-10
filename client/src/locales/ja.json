@@ -13,7 +13,7 @@
 				"content": "警告: Google PageSpeed APIキーがまだ追加されていません。<settingsLink>設定</settingsLink>からキーを追加してください。キーがないとPageSpeedモニターは機能しません。"
 			}
 		},
-		"appName": "Checkmate",
+		"appName": "Vexora-Cloud Status",
 		"breadcrumbs": {
 			"details": "詳細",
 			"home": "ホーム"
@@ -176,8 +176,8 @@
 			"reconnected": "サーバーに正常に再接続しました。"
 		},
 		"egressBanner": {
-			"degraded": "Checkmate が信頼性ターゲットに到達できません。{{time}} 以降、外向き通信が停止しているようです。復旧するまでモニターの失敗はインシデントとして報告されません。",
-			"degradedNoTime": "Checkmate が信頼性ターゲットに到達できません。外向き通信が停止しているようです。復旧するまでモニターの失敗はインシデントとして報告されません。",
+			"degraded": "Vexora-Cloud Status が信頼性ターゲットに到達できません。{{time}} 以降、外向き通信が停止しているようです。復旧するまでモニターの失敗はインシデントとして報告されません。",
+			"degradedNoTime": "Vexora-Cloud Status が信頼性ターゲットに到達できません。外向き通信が停止しているようです。復旧するまでモニターの失敗はインシデントとして報告されません。",
 			"degradedWorkers": "{{total}} 台中 {{degraded}} 台のワーカーが {{time}} 以降、外向き通信を失っています。復旧するまで、これらのワーカーでのモニターの失敗はインシデントとして報告されません。",
 			"degradedWorkersNoTime": "{{total}} 台中 {{degraded}} 台のワーカーが外向き通信を失っています。復旧するまで、これらのワーカーでのモニターの失敗はインシデントとして報告されません。"
 		},
@@ -214,7 +214,7 @@
 				"team": "チーム"
 			},
 			"starPrompt": {
-				"title": "Checkmateにスターを付ける",
+				"title": "Vexora-Cloud Statusにスターを付ける",
 				"description": "GitHubで最新リリースを確認し、コミュニティの成長に貢献しましょう"
 			},
 			"authFooter": {
@@ -233,7 +233,7 @@
 			}
 		},
 		"starPrompt": {
-			"title": "Checkmateにスターを付ける",
+			"title": "Vexora-Cloud Statusにスターを付ける",
 			"description": "GitHubで最新リリースを確認し、コミュニティの成長に貢献しましょう"
 		},
 		"pageHeader": {
@@ -245,7 +245,7 @@
 			},
 			"update": {
 				"available": "{{version}} が利用可能",
-				"tooltip": "Checkmate の新しいバージョンが利用可能です。リリースノートを表示します。"
+				"tooltip": "Vexora-Cloud Status の新しいバージョンが利用可能です。リリースノートを表示します。"
 			}
 		}
 	},
@@ -387,7 +387,7 @@
 				}
 			},
 			"login": {
-				"title": "Checkmateへようこそ！",
+				"title": "Vexora-Cloud Statusへようこそ！",
 				"subtitle": "ログインして続行",
 				"submit": "ログイン",
 				"links": {
@@ -402,7 +402,7 @@
 				}
 			},
 			"register": {
-				"title": "Checkmateへようこそ！",
+				"title": "Vexora-Cloud Statusへようこそ！",
 				"subtitle": "サインアップして始めましょう",
 				"submit": "登録",
 				"setupNotice": "このページは初期セットアップ中のみ利用できます。スーパー管理者が登録されると、追加のユーザーはチーム設定から招待できます。"
@@ -449,7 +449,7 @@
 			},
 			"header": {
 				"title": "チェック",
-				"description": "Checkmateがモニターに対して実行するすべてのプローブが、ステータスコードと応答時間とともにここに表示されます。"
+				"description": "Vexora-Cloud Statusがモニターに対して実行するすべてのプローブが、ステータスコードと応答時間とともにここに表示されます。"
 			}
 		},
 		"common": {
@@ -956,7 +956,7 @@
 		"logs": {
 			"fallback": {
 				"title": "ログがまだありません",
-				"description": "サーバーのアクティビティ、警告、エラーがCheckmateの実行中にここに表示されます。"
+				"description": "サーバーのアクティビティ、警告、エラーがVexora-Cloud Statusの実行中にここに表示されます。"
 			},
 			"tabs": {
 				"diagnostics": "診断",
@@ -1379,7 +1379,7 @@
 						},
 						"displayName": {
 							"label": "送信者名（任意）- 差出人フィールドに表示されるわかりやすい名前",
-							"placeholder": "Checkmate通知"
+							"placeholder": "Vexora-Cloud Status通知"
 						}
 					}
 				},
@@ -1616,7 +1616,7 @@
 							"name": "モダン"
 						},
 						"refined": {
-							"description": "クリーンでプロフェッショナル、Checkmateのクラシックな外観に近い。",
+							"description": "クリーンでプロフェッショナル、Vexora-Cloud Statusのクラシックな外観に近い。",
 							"name": "リファインド"
 						}
 					},
@@ -1767,7 +1767,7 @@
 				"currentlyDown": "現在停止中",
 				"uptime": "モニターの稼働率",
 				"monitorsByType": "タイプ別モニター",
-				"diagnostic": "Checkmate 診断",
+				"diagnostic": "Vexora-Cloud Status 診断",
 				"queue": "キュー"
 			},
 			"uptimeCard": {

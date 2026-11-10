@@ -13,7 +13,7 @@
 				"content": "Cảnh báo: Bạn chưa thêm khóa API Google PageSpeed. Truy cập <settingsLink>Cài đặt</settingsLink> để thêm. Nếu không có khóa này, trình giám sát PageSpeed sẽ không hoạt động."
 			}
 		},
-		"appName": "Checkmate",
+		"appName": "Vexora-Cloud Status",
 		"breadcrumbs": {
 			"details": "Chi tiết",
 			"home": "Trang chủ"
@@ -176,8 +176,8 @@
 			"reconnected": "Đã khôi phục kết nối"
 		},
 		"egressBanner": {
-			"degraded": "Checkmate không thể kết nối tới các mục tiêu kiểm tra độ tin cậy. Kết nối ra ngoài dường như bị gián đoạn từ {{time}}; lỗi của các monitor sẽ không được báo cáo thành sự cố cho đến khi kết nối được khôi phục.",
-			"degradedNoTime": "Checkmate không thể kết nối tới các mục tiêu kiểm tra độ tin cậy. Kết nối ra ngoài dường như bị gián đoạn; lỗi của các monitor sẽ không được báo cáo thành sự cố cho đến khi kết nối được khôi phục.",
+			"degraded": "Vexora-Cloud Status không thể kết nối tới các mục tiêu kiểm tra độ tin cậy. Kết nối ra ngoài dường như bị gián đoạn từ {{time}}; lỗi của các monitor sẽ không được báo cáo thành sự cố cho đến khi kết nối được khôi phục.",
+			"degradedNoTime": "Vexora-Cloud Status không thể kết nối tới các mục tiêu kiểm tra độ tin cậy. Kết nối ra ngoài dường như bị gián đoạn; lỗi của các monitor sẽ không được báo cáo thành sự cố cho đến khi kết nối được khôi phục.",
 			"degradedWorkers": "{{degraded}}/{{total}} worker đã mất kết nối ra ngoài từ {{time}}. Lỗi monitor của chúng sẽ không được báo cáo thành sự cố cho đến khi kết nối được khôi phục.",
 			"degradedWorkersNoTime": "{{degraded}}/{{total}} worker đã mất kết nối ra ngoài. Lỗi monitor của chúng sẽ không được báo cáo thành sự cố cho đến khi kết nối được khôi phục."
 		},
@@ -214,7 +214,7 @@
 				"team": "Nhóm"
 			},
 			"starPrompt": {
-				"title": "Gắn sao Checkmate",
+				"title": "Gắn sao Vexora-Cloud Status",
 				"description": "Xem các bản phát hành mới nhất và giúp phát triển cộng đồng trên GitHub"
 			},
 			"authFooter": {
@@ -233,7 +233,7 @@
 			}
 		},
 		"starPrompt": {
-			"title": "Gắn sao Checkmate",
+			"title": "Gắn sao Vexora-Cloud Status",
 			"description": "Xem các bản phát hành mới nhất và giúp phát triển cộng đồng trên GitHub"
 		},
 		"pageHeader": {
@@ -245,7 +245,7 @@
 			},
 			"update": {
 				"available": "Đã có {{version}}",
-				"tooltip": "Đã có phiên bản Checkmate mới hơn. Xem ghi chú phát hành."
+				"tooltip": "Đã có phiên bản Vexora-Cloud Status mới hơn. Xem ghi chú phát hành."
 			}
 		}
 	},
@@ -387,7 +387,7 @@
 				}
 			},
 			"login": {
-				"title": "Chào mừng bạn trở lại Checkmate!",
+				"title": "Chào mừng bạn trở lại Vexora-Cloud Status!",
 				"subtitle": "Đăng nhập để tiếp tục",
 				"submit": "Đăng nhập",
 				"links": {
@@ -402,7 +402,7 @@
 				}
 			},
 			"register": {
-				"title": "Chào mừng bạn trở lại Checkmate!",
+				"title": "Chào mừng bạn trở lại Vexora-Cloud Status!",
 				"subtitle": "Đăng ký để bắt đầu",
 				"submit": "Đăng ký",
 				"setupNotice": "Trang này chỉ khả dụng trong quá trình thiết lập ban đầu. Sau khi siêu quản trị viên được đăng ký, có thể mời thêm người dùng từ cài đặt nhóm."
@@ -449,7 +449,7 @@
 			},
 			"header": {
 				"title": "Kiểm tra",
-				"description": "Mỗi lần thăm dò mà Checkmate chạy trên trình giám sát của bạn sẽ xuất hiện tại đây với mã trạng thái và thời gian phản hồi."
+				"description": "Mỗi lần thăm dò mà Vexora-Cloud Status chạy trên trình giám sát của bạn sẽ xuất hiện tại đây với mã trạng thái và thời gian phản hồi."
 			}
 		},
 		"common": {
@@ -956,7 +956,7 @@
 		"logs": {
 			"fallback": {
 				"title": "Chưa có nhật ký",
-				"description": "Hoạt động máy chủ, cảnh báo và lỗi sẽ xuất hiện tại đây khi Checkmate đang chạy."
+				"description": "Hoạt động máy chủ, cảnh báo và lỗi sẽ xuất hiện tại đây khi Vexora-Cloud Status đang chạy."
 			},
 			"tabs": {
 				"diagnostics": "Chẩn đoán",
@@ -1379,7 +1379,7 @@
 						},
 						"displayName": {
 							"label": "Tên người gửi (tùy chọn) - Tên thân thiện hiển thị trong trường Từ",
-							"placeholder": "Thông báo Checkmate"
+							"placeholder": "Thông báo Vexora-Cloud Status"
 						}
 					}
 				},
@@ -1616,7 +1616,7 @@
 							"name": "Hiện đại"
 						},
 						"refined": {
-							"description": "Sạch sẽ, chuyên nghiệp, gần với giao diện Checkmate cổ điển.",
+							"description": "Sạch sẽ, chuyên nghiệp, gần với giao diện Vexora-Cloud Status cổ điển.",
 							"name": "Tinh tế"
 						}
 					},
@@ -1767,7 +1767,7 @@
 				"currentlyDown": "Hiện đang ngừng hoạt động",
 				"uptime": "Thời gian hoạt động",
 				"monitorsByType": "Trình giám sát theo loại",
-				"diagnostic": "Chẩn đoán Checkmate",
+				"diagnostic": "Chẩn đoán Vexora-Cloud Status",
 				"queue": "Hàng đợi"
 			},
 			"uptimeCard": {

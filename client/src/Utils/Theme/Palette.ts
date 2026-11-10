@@ -32,8 +32,9 @@ export const colors = {
 	successDark: "#4BC49E",
 	errorDark: "#E8837A",
 	warningDark: "#E0A458",
-	brandGreen: "#13715B",
-	brandGreenLight: "#4DAF94",
+	brandGreen: "#7c3aed",
+	brandGreenLight: "#8b5cf6",
+	brandGreenDark: "#6d28d9",
 	green200: "#ECF7F2",
 	green700: "#008300",
 	yellow200: "#FFF4E5",
@@ -53,6 +54,8 @@ export const colors = {
 export const lightPalette = {
 	primary: {
 		main: colors.brandGreen,
+		light: colors.brandGreenLight,
+		dark: colors.brandGreenDark,
 	},
 	action: {
 		rowHover: alpha(colors.gray900, HOVER.ROW),
@@ -109,6 +112,7 @@ export const darkPalette = {
 	primary: {
 		main: colors.brandGreen,
 		light: colors.brandGreenLight,
+		dark: colors.brandGreenDark,
 	},
 	action: {
 		rowHover: alpha("#FFFFFF", HOVER.ROW),
@@ -120,8 +124,8 @@ export const darkPalette = {
 		main: colors.gray700,
 	},
 	background: {
-		default: colors.gray900,
-		paper: colors.gray850,
+		default: "#0f0f0f",
+		paper: "#1a1a1a",
 	},
 	text: {
 		primary: colors.inkDark900,

@@ -13,7 +13,7 @@
 				"content": "Uyarı: Henüz bir Google PageSpeed API anahtarı eklemediniz. Eklemek için <settingsLink>Ayarlar</settingsLink> sayfasını ziyaret edin. Bu anahtar olmadan PageSpeed monitörü çalışmayacaktır."
 			}
 		},
-		"appName": "Checkmate",
+		"appName": "Vexora-Cloud Status",
 		"breadcrumbs": {
 			"details": "Detaylar",
 			"home": "Ana sayfa"
@@ -176,8 +176,8 @@
 			"reconnected": "Bağlantı yeniden kuruldu"
 		},
 		"egressBanner": {
-			"degraded": "Checkmate güvenilirlik hedeflerine ulaşamıyor. Giden bağlantı {{time}} itibarıyla kesik görünüyor; düzelene kadar monitör hataları olay olarak bildirilmiyor.",
-			"degradedNoTime": "Checkmate güvenilirlik hedeflerine ulaşamıyor. Giden bağlantı kesik görünüyor; düzelene kadar monitör hataları olay olarak bildirilmiyor.",
+			"degraded": "Vexora-Cloud Status güvenilirlik hedeflerine ulaşamıyor. Giden bağlantı {{time}} itibarıyla kesik görünüyor; düzelene kadar monitör hataları olay olarak bildirilmiyor.",
+			"degradedNoTime": "Vexora-Cloud Status güvenilirlik hedeflerine ulaşamıyor. Giden bağlantı kesik görünüyor; düzelene kadar monitör hataları olay olarak bildirilmiyor.",
 			"degradedWorkers": "{{total}} worker'dan {{degraded}} tanesi {{time}} itibarıyla giden bağlantısını kaybetti. Düzelene kadar bunların monitör hataları olay olarak bildirilmiyor.",
 			"degradedWorkersNoTime": "{{total}} worker'dan {{degraded}} tanesi giden bağlantısını kaybetti. Düzelene kadar bunların monitör hataları olay olarak bildirilmiyor."
 		},
@@ -214,7 +214,7 @@
 				"team": "Ekip"
 			},
 			"starPrompt": {
-				"title": "Checkmate'e yıldız verin",
+				"title": "Vexora-Cloud Status'e yıldız verin",
 				"description": "En son sürümleri görün ve GitHub'da topluluğun büyümesine katkıda bulunun"
 			},
 			"authFooter": {
@@ -233,7 +233,7 @@
 			}
 		},
 		"starPrompt": {
-			"title": "Checkmate'e yıldız verin",
+			"title": "Vexora-Cloud Status'e yıldız verin",
 			"description": "En son sürümleri görün ve GitHub'da topluluğun büyümesine katkıda bulunun"
 		},
 		"pageHeader": {
@@ -245,7 +245,7 @@
 			},
 			"update": {
 				"available": "{{version}} kullanılabilir",
-				"tooltip": "Checkmate'in daha yeni bir sürümü mevcut. Sürüm notlarını görüntüleyin."
+				"tooltip": "Vexora-Cloud Status'in daha yeni bir sürümü mevcut. Sürüm notlarını görüntüleyin."
 			}
 		}
 	},
@@ -387,7 +387,7 @@
 				}
 			},
 			"login": {
-				"title": "Checkmate'e tekrar hoş geldiniz!",
+				"title": "Vexora-Cloud Status'e tekrar hoş geldiniz!",
 				"subtitle": "Devam etmek için giriş yapın",
 				"submit": "Giriş yap",
 				"links": {
@@ -402,7 +402,7 @@
 				}
 			},
 			"register": {
-				"title": "Checkmate'e tekrar hoş geldiniz!",
+				"title": "Vexora-Cloud Status'e tekrar hoş geldiniz!",
 				"subtitle": "Başlamak için kaydolun",
 				"submit": "Kaydol",
 				"setupNotice": "Bu sayfa yalnızca ilk kurulum sırasında kullanılabilir. Süper yönetici kaydedildikten sonra, ek kullanıcılar takım ayarlarından davet edilebilir."
@@ -449,7 +449,7 @@
 			},
 			"header": {
 				"title": "Kontroller",
-				"description": "Checkmate'in izleyicilerinize karşı çalıştırdığı her sondaj, durum kodu ve yanıt süresiyle birlikte burada görünür."
+				"description": "Vexora-Cloud Status'in izleyicilerinize karşı çalıştırdığı her sondaj, durum kodu ve yanıt süresiyle birlikte burada görünür."
 			}
 		},
 		"common": {
@@ -956,7 +956,7 @@
 		"logs": {
 			"fallback": {
 				"title": "Henüz günlük yok",
-				"description": "Sunucu etkinliği, uyarılar ve hatalar Checkmate çalıştıkça burada görünecek."
+				"description": "Sunucu etkinliği, uyarılar ve hatalar Vexora-Cloud Status çalıştıkça burada görünecek."
 			},
 			"tabs": {
 				"diagnostics": "Teşhis",
@@ -1379,7 +1379,7 @@
 						},
 						"displayName": {
 							"label": "Gönderen adı (isteğe bağlı) - Gönderen alanında gösterilen kullanıcı dostu ad",
-							"placeholder": "Checkmate bildirimleri"
+							"placeholder": "Vexora-Cloud Status bildirimleri"
 						}
 					}
 				},
@@ -1616,7 +1616,7 @@
 							"name": "Modern"
 						},
 						"refined": {
-							"description": "Temiz, profesyonel, klasik Checkmate görünümüne yakın.",
+							"description": "Temiz, profesyonel, klasik Vexora-Cloud Status görünümüne yakın.",
 							"name": "Zarif"
 						}
 					},
@@ -1767,7 +1767,7 @@
 				"currentlyDown": "Şu anda kapalı",
 				"uptime": "Monitör çalışma süresi",
 				"monitorsByType": "Türe göre monitörler",
-				"diagnostic": "Checkmate tanılama",
+				"diagnostic": "Vexora-Cloud Status tanılama",
 				"queue": "Kuyruk"
 			},
 			"uptimeCard": {

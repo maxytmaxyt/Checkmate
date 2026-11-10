@@ -36,10 +36,9 @@ export class HttpProvider implements IStatusProvider<HttpStatusPayload> {
 			retry: { limit: 1 },
 		});
 
-		const agentOptions = { keepAlive: true, maxSockets: 256, maxFreeSockets: 256 };
-		this.httpAgent = new HttpAgent(agentOptions);
-		this.httpsAgent = new HttpsAgent({ ...agentOptions, rejectUnauthorized: true });
-		this.httpsAgentInsecure = new HttpsAgent({ ...agentOptions, rejectUnauthorized: false });
+		this.httpAgent = new HttpAgent({ keepAlive: true, maxSockets: 256, maxFreeSockets: 256 });
+		this.httpsAgent = new HttpsAgent({ keepAlive: true, maxSockets: 256, maxFreeSockets: 256, rejectUnauthorized: true });
+		this.httpsAgentInsecure = new HttpsAgent({ keepAlive: true, maxSockets: 256, maxFreeSockets: 256, rejectUnauthorized: false });
 	}
 
 	supports(type: MonitorType) {
